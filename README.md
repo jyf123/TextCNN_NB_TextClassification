@@ -1,6 +1,7 @@
 # 中文文本分类系统
 
-##文件结构
+## 文件结构
+```
     named_entity_recognition                        
     |____ data                      #数据集
          |____ class.txt            #类别
@@ -15,10 +16,10 @@
     |____ TextCNN.py                #TextCNN模型的基本构建
     |____ train_eval.py             #训练、测试、评估TextCNN模型的函数
     |____ cnn_main.py               #训练并评估TextCNN模型
-    
+```
 
     
-##环境    
+## 环境    
 torch==1.8.1+cu102
 
 numpy==1.20.2

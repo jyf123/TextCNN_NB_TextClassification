@@ -1,0 +1,6 @@
+torch==1.8.1+cu102
+numpy==1.20.2
+jieba==0.42.1
+pandas==1.2.4
+tqdm==4.61.0
+scikit_learn==0.24.2
